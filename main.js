@@ -49,7 +49,7 @@ for (let key of keys) {
 
 function CleanInput(input) {
 	let input_array = input.split("");
-	let input_array_length = input_array.length;
+	let input_array_length=input_array.length;
 
 	for (let i = 0; i < input_array_length; i++) {
 		if (input_array[i] == "*") {
